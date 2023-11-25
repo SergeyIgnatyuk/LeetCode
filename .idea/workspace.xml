@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5232cdd-70f7-4b12-a815-5cbb2ead5ca7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f5232cdd-70f7-4b12-a815-5cbb2ead5ca7" name="Changes" comment="Container With Most Water. Done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container_with_the_most_water/ContainerWithTheMostWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/container_with_the_most_water/ContainerWithTheMostWater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition_labels/PartitionLabels.java" beforeDir="false" afterPath="$PROJECT_DIR$/partition_labels/PartitionLabels.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +38,7 @@
     "jdk.selected.JAVA_MODULE": "openjdk-19"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.PartitionLabels">
     <configuration name="ContainerWithTheMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="container_with_the_most_water.ContainerWithTheMostWater" />
       <module name="LeetCode" />
@@ -56,8 +52,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PartitionLabels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="partition_labels.PartitionLabels" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="partition_labels.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PartitionLabels" />
         <item itemvalue="Application.ContainerWithTheMostWater" />
       </list>
     </recent_temporary>
@@ -70,8 +80,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1700918937054</updated>
-      <workItem from="1700918940584" duration="6769000" />
+      <workItem from="1700918940584" duration="13745000" />
     </task>
+    <task id="LOCAL-00001" summary="Container With Most Water. Done">
+      <created>1700944982928</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700944982943</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Container With Most Water. Done">
+      <created>1700945123561</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700945123561</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,5 +112,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Container With Most Water. Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Container With Most Water. Done" />
   </component>
 </project>

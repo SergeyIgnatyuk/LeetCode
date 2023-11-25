@@ -1,10 +1,10 @@
 package container_with_the_most_water;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.stream.Collectors;
+/**
+ * You are given an integer array height of length n. There are n vertical lines drawn such that the two endpoints of the ith line are (i, 0) and (i, height[i]).
+ *
+ * Find two lines that together with the x-axis form a container, such that the container contains the most water.
+ */
 
 public class ContainerWithTheMostWater {
     public static void main(String[] args) {

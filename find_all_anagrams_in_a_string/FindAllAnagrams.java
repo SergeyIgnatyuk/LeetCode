@@ -17,14 +17,11 @@ public class FindAllAnagrams {
         List<Integer> list = new ArrayList<>();
         char[] pArray = p.toCharArray();
         Arrays.sort(pArray);
-        String sortedP = Arrays.toString(pArray);
         for (int i = 0; i < s.length(); i++) {
             if (i + p.length() <= s.length()) {
-                String possibleAnagram = s.substring(i, i + p.length());
-                char[] anagramArray = possibleAnagram.toCharArray();
+                char[] anagramArray = s.substring(i, i + p.length()).toCharArray();
                 Arrays.sort(anagramArray);
-                String sortedAnagram = Arrays.toString(anagramArray);
-                if (sortedAnagram.equals(sortedP)) {
+                if (Arrays.equals(anagramArray, pArray)) {
                     list.add(i);
                 }
             }

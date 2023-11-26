@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5232cdd-70f7-4b12-a815-5cbb2ead5ca7" name="Changes" comment="Partition Labels">
-      <change afterPath="$PROJECT_DIR$/squares_of_a_sorted_array/SortedArraySquares.java" afterDir="false" />
+    <list default="true" id="f5232cdd-70f7-4b12-a815-5cbb2ead5ca7" name="Changes" comment="Squares of a Sorted Array">
+      <change afterPath="$PROJECT_DIR$/subarray_sum_equals_k/SubarraySumEqualsK.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +38,7 @@
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SortedArraySquares">
+  <component name="RunManager" selected="Application.SubarraySumEqualsK">
     <configuration name="ContainerWithTheMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="container_with_the_most_water.ContainerWithTheMostWater" />
       <module name="LeetCode" />
@@ -78,8 +78,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SubarraySumEqualsK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="subarray_sum_equals_k.SubarraySumEqualsK" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="subarray_sum_equals_k.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SubarraySumEqualsK" />
         <item itemvalue="Application.SortedArraySquares" />
         <item itemvalue="Application.PartitionLabels" />
         <item itemvalue="Application.ContainerWithTheMostWater" />
@@ -95,7 +109,7 @@
       <option name="presentableId" value="Default" />
       <updated>1700918937054</updated>
       <workItem from="1700918940584" duration="14216000" />
-      <workItem from="1700997860322" duration="1490000" />
+      <workItem from="1700997860322" duration="8736000" />
     </task>
     <task id="LOCAL-00001" summary="Container With Most Water. Done">
       <created>1700944982928</created>
@@ -125,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700952377168</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Squares of a Sorted Array">
+      <created>1700999393836</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700999393836</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +166,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Container With Most Water. Done" />
     <MESSAGE value="Partition Labels" />
-    <option name="LAST_COMMIT_MESSAGE" value="Partition Labels" />
+    <MESSAGE value="Squares of a Sorted Array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Squares of a Sorted Array" />
   </component>
 </project>

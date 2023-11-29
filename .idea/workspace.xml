@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5232cdd-70f7-4b12-a815-5cbb2ead5ca7" name="Changes" comment="Find All Anagrams in a String. Used sorting">
+      <change afterPath="$PROJECT_DIR$/jewels_and_stones/JewelsAndStones.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,13 +38,13 @@
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FindAllAnagrams">
-    <configuration name="ContainerWithTheMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="container_with_the_most_water.ContainerWithTheMostWater" />
+  <component name="RunManager" selected="Application.JewelsAndStones">
+    <configuration name="FindAllAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="find_all_anagrams_in_a_string.FindAllAnagrams" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="container_with_the_most_water.*" />
+          <option name="PATTERN" value="find_all_anagrams_in_a_string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -51,12 +52,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindAllAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="find_all_anagrams_in_a_string.FindAllAnagrams" />
+    <configuration name="JewelsAndStones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jewels_and_stones.JewelsAndStones" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="find_all_anagrams_in_a_string.*" />
+          <option name="PATTERN" value="jewels_and_stones.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JewelsAndStones" />
         <item itemvalue="Application.FindAllAnagrams" />
         <item itemvalue="Application.SubarraySumEqualsK" />
         <item itemvalue="Application.SortedArraySquares" />
         <item itemvalue="Application.PartitionLabels" />
-        <item itemvalue="Application.ContainerWithTheMostWater" />
       </list>
     </recent_temporary>
   </component>
@@ -122,7 +123,9 @@
       <option name="presentableId" value="Default" />
       <updated>1700918937054</updated>
       <workItem from="1700918940584" duration="14216000" />
-      <workItem from="1700997860322" duration="20312000" />
+      <workItem from="1700997860322" duration="21354000" />
+      <workItem from="1701064432979" duration="544000" />
+      <workItem from="1701279535828" duration="2949000" />
     </task>
     <task id="LOCAL-00001" summary="Container With Most Water. Done">
       <created>1700944982928</created>
@@ -180,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701029519307</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Find All Anagrams in a String. Used sorting">
+      <created>1701032014692</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1701032014692</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

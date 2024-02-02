@@ -1,4 +1,4 @@
-package partition_labels;
+package partition_labels_763;
 
 import java.util.ArrayList;
 import java.util.List;

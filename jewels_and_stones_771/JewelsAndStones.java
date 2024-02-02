@@ -1,9 +1,4 @@
-package jewels_and_stones;
-
-import com.sun.source.doctree.SeeTree;
-
-import java.util.Arrays;
-import java.util.stream.Stream;
+package jewels_and_stones_771;
 
 /**
  * You're given strings jewels representing the types of stones that are jewels, and stones representing the stones you have. Each character in stones is a type of stone you have. You want to know how many of the stones you have are also jewels.

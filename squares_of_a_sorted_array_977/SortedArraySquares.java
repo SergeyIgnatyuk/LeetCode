@@ -1,7 +1,6 @@
-package squares_of_a_sorted_array;
+package squares_of_a_sorted_array_977;
 
 import java.util.Arrays;
-import java.util.stream.Collectors;
 
 /**
  * Given an integer array nums sorted in non-decreasing order, return an array of the squares of each number sorted in non-decreasing order.

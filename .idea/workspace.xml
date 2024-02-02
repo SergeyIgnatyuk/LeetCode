@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f5232cdd-70f7-4b12-a815-5cbb2ead5ca7" name="Changes" comment="Find All Anagrams in a String. Used sorting">
-      <change afterPath="$PROJECT_DIR$/jewels_and_stones/JewelsAndStones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/senla/alfa/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/senla/alfa/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container_with_the_most_water/ContainerWithTheMostWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/container_with_the_most_water_11/ContainerWithTheMostWater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/find_all_anagrams_in_a_string/FindAllAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/find_all_anagrams_in_a_string_438/FindAllAnagrams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jewels_and_stones/JewelsAndStones.java" beforeDir="false" afterPath="$PROJECT_DIR$/jewels_and_stones_771/JewelsAndStones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partition_labels/PartitionLabels.java" beforeDir="false" afterPath="$PROJECT_DIR$/partition_labels_763/PartitionLabels.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/squares_of_a_sorted_array/SortedArraySquares.java" beforeDir="false" afterPath="$PROJECT_DIR$/squares_of_a_sorted_array_977/SortedArraySquares.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/subarray_sum_equals_k/SubarraySumEqualsK.java" beforeDir="false" afterPath="$PROJECT_DIR$/subarray_sum_equals_k_560/SubarraySumEqualsK.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,16 +46,24 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/signa/IdeaProjects/LeetCode&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.JewelsAndStones">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="FindAllAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="find_all_anagrams_in_a_string.FindAllAnagrams" />
+      <option name="MAIN_CLASS_NAME" value="find_all_anagrams_in_a_string_438.FindAllAnagrams" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="find_all_anagrams_in_a_string.*" />
+          <option name="PATTERN" value="find_all_anagrams_in_a_string_438.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -53,11 +72,11 @@
       </method>
     </configuration>
     <configuration name="JewelsAndStones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jewels_and_stones.JewelsAndStones" />
+      <option name="MAIN_CLASS_NAME" value="jewels_and_stones_771.JewelsAndStones" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jewels_and_stones.*" />
+          <option name="PATTERN" value="jewels_and_stones_771.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PartitionLabels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="partition_labels.PartitionLabels" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="senla.alfa.Solution" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="partition_labels.*" />
+          <option name="PATTERN" value="senla.alfa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,11 +98,11 @@
       </method>
     </configuration>
     <configuration name="SortedArraySquares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="squares_of_a_sorted_array.SortedArraySquares" />
+      <option name="MAIN_CLASS_NAME" value="squares_of_a_sorted_array_977.SortedArraySquares" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="squares_of_a_sorted_array.*" />
+          <option name="PATTERN" value="squares_of_a_sorted_array_977.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,11 +111,11 @@
       </method>
     </configuration>
     <configuration name="SubarraySumEqualsK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="subarray_sum_equals_k.SubarraySumEqualsK" />
+      <option name="MAIN_CLASS_NAME" value="subarray_sum_equals_k_560.SubarraySumEqualsK" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="subarray_sum_equals_k.*" />
+          <option name="PATTERN" value="subarray_sum_equals_k_560.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.JewelsAndStones" />
         <item itemvalue="Application.FindAllAnagrams" />
         <item itemvalue="Application.SubarraySumEqualsK" />
         <item itemvalue="Application.SortedArraySquares" />
-        <item itemvalue="Application.PartitionLabels" />
       </list>
     </recent_temporary>
   </component>
@@ -126,6 +145,9 @@
       <workItem from="1700997860322" duration="21354000" />
       <workItem from="1701064432979" duration="544000" />
       <workItem from="1701279535828" duration="2949000" />
+      <workItem from="1706771381421" duration="2189000" />
+      <workItem from="1706786687131" duration="281000" />
+      <workItem from="1706878584016" duration="4221000" />
     </task>
     <task id="LOCAL-00001" summary="Container With Most Water. Done">
       <created>1700944982928</created>

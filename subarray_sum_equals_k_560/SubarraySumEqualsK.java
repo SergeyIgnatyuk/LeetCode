@@ -1,4 +1,4 @@
-package subarray_sum_equals_k;
+package subarray_sum_equals_k_560;
 
 /**
  * Given an array of integers nums and an integer k, return the total number of subarrays whose sum equals to k.

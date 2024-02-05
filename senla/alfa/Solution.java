@@ -18,23 +18,23 @@ public class Solution {
                 new User("Pupkina", "Magadan")
         );
 
-        Set<String> cities = Set.of("Brest", "Orel", "Magadan");
+        Set<String> cities = Set.of("Brest", "Orel", "Jopa");
 
         System.out.println(countUsersInEachCity(users, cities));
     }
 
-    private static Map<String, Integer> countUsersInEachCity(Set<User> users, Set<String> cities) {
-        Map<String, Integer> result = new HashMap<>();
+    private static Map<String, Long> countUsersInEachCity(Set<User> users, Set<String> cities) {
+        Map<String, Long> result = new HashMap<>();
 
-        cities.forEach(city -> {
-            long count = users.stream().filter(user -> Objects.equals(user.getCity(), city)).count();
-            if (count > 0) {
-                result.put(city, (int) count);
-            }
-        });
+//        cities.forEach(city -> {
+//            long count = users.stream().filter(user -> Objects.equals(user.getCity(), city)).count();
+//            result.put(city, count);
+//        });
+
+        result = users.stream().filter(user -> cities.contains(user.getCity()))
+                .collect(Collectors.groupingBy(User::getCity, Collectors.counting()));
 
         return result;
     }
-
 
 }

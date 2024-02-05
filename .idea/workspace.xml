@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5232cdd-70f7-4b12-a815-5cbb2ead5ca7" name="Changes" comment="Find All Anagrams in a String. Used sorting">
-      <change afterPath="$PROJECT_DIR$/senla/alfa/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/senla/alfa/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f5232cdd-70f7-4b12-a815-5cbb2ead5ca7" name="Changes" comment="SENLA alfa task">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container_with_the_most_water/ContainerWithTheMostWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/container_with_the_most_water_11/ContainerWithTheMostWater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/find_all_anagrams_in_a_string/FindAllAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/find_all_anagrams_in_a_string_438/FindAllAnagrams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jewels_and_stones/JewelsAndStones.java" beforeDir="false" afterPath="$PROJECT_DIR$/jewels_and_stones_771/JewelsAndStones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partition_labels/PartitionLabels.java" beforeDir="false" afterPath="$PROJECT_DIR$/partition_labels_763/PartitionLabels.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/squares_of_a_sorted_array/SortedArraySquares.java" beforeDir="false" afterPath="$PROJECT_DIR$/squares_of_a_sorted_array_977/SortedArraySquares.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subarray_sum_equals_k/SubarraySumEqualsK.java" beforeDir="false" afterPath="$PROJECT_DIR$/subarray_sum_equals_k_560/SubarraySumEqualsK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/senla/alfa/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/senla/alfa/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +139,8 @@
       <workItem from="1701279535828" duration="2949000" />
       <workItem from="1706771381421" duration="2189000" />
       <workItem from="1706786687131" duration="281000" />
-      <workItem from="1706878584016" duration="4221000" />
+      <workItem from="1706878584016" duration="4263000" />
+      <workItem from="1707115604719" duration="1932000" />
     </task>
     <task id="LOCAL-00001" summary="Container With Most Water. Done">
       <created>1700944982928</created>
@@ -212,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701032014692</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="SENLA alfa task">
+      <created>1706884244404</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1706884244404</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +236,7 @@
     <MESSAGE value="Subarray Sum Equals K" />
     <MESSAGE value="Find All Anagrams in a String. StringTokenizer" />
     <MESSAGE value="Find All Anagrams in a String. Used sorting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Find All Anagrams in a String. Used sorting" />
+    <MESSAGE value="SENLA alfa task" />
+    <option name="LAST_COMMIT_MESSAGE" value="SENLA alfa task" />
   </component>
 </project>

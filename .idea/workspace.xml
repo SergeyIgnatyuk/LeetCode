@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5232cdd-70f7-4b12-a815-5cbb2ead5ca7" name="Changes" comment="SENLA alfa task">
-      <change afterPath="$PROJECT_DIR$/find_first_palindromic_string_in_the_array_2108/PalindromicStringInTHeArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/permutation_in_string/PermutationInString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single_number/SingleNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f5232cdd-70f7-4b12-a815-5cbb2ead5ca7" name="Changes" comment="2108. Find First Palindromic String in the Array">
+      <change afterPath="$PROJECT_DIR$/length_of_the_last_word_58/LengthOfTHeLastWord.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +49,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PalindromicStringInTHeArray">
+  <component name="RunManager" selected="Application.LengthOfTHeLastWord">
     <configuration name="FindAllAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="find_all_anagrams_in_a_string_438.FindAllAnagrams" />
       <module name="LeetCode" />
@@ -72,6 +69,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="jewels_and_stones_771.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LengthOfTHeLastWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="length_of_the_last_word_58.LengthOfTHeLastWord" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="length_of_the_last_word_58.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,26 +115,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubarraySumEqualsK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="subarray_sum_equals_k_560.SubarraySumEqualsK" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="subarray_sum_equals_k_560.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LengthOfTHeLastWord" />
         <item itemvalue="Application.PalindromicStringInTHeArray" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.JewelsAndStones" />
         <item itemvalue="Application.FindAllAnagrams" />
-        <item itemvalue="Application.SubarraySumEqualsK" />
       </list>
     </recent_temporary>
   </component>
@@ -144,6 +141,7 @@
       <workItem from="1706786687131" duration="281000" />
       <workItem from="1706878584016" duration="4263000" />
       <workItem from="1707115604719" duration="1932000" />
+      <workItem from="1707855532573" duration="1049000" />
     </task>
     <task id="LOCAL-00001" summary="Container With Most Water. Done">
       <created>1700944982928</created>
@@ -215,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706884244404</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="2108. Find First Palindromic String in the Array">
+      <created>1707854711874</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1707854711874</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +245,7 @@
     <MESSAGE value="Find All Anagrams in a String. StringTokenizer" />
     <MESSAGE value="Find All Anagrams in a String. Used sorting" />
     <MESSAGE value="SENLA alfa task" />
-    <option name="LAST_COMMIT_MESSAGE" value="SENLA alfa task" />
+    <MESSAGE value="2108. Find First Palindromic String in the Array" />
+    <option name="LAST_COMMIT_MESSAGE" value="2108. Find First Palindromic String in the Array" />
   </component>
 </project>

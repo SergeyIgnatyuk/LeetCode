@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5232cdd-70f7-4b12-a815-5cbb2ead5ca7" name="Changes" comment="SENLA alfa task">
+      <change afterPath="$PROJECT_DIR$/find_first_palindromic_string_in_the_array_2108/PalindromicStringInTHeArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/permutation_in_string/PermutationInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/single_number/SingleNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/senla/alfa/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/senla/alfa/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +52,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.PalindromicStringInTHeArray">
     <configuration name="FindAllAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="find_all_anagrams_in_a_string_438.FindAllAnagrams" />
       <module name="LeetCode" />
@@ -76,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="senla.alfa.Solution" />
+    <configuration name="PalindromicStringInTHeArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="find_first_palindromic_string_in_the_array_2108.PalindromicStringInTHeArray" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="senla.alfa.*" />
+          <option name="PATTERN" value="find_first_palindromic_string_in_the_array_2108.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortedArraySquares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="squares_of_a_sorted_array_977.SortedArraySquares" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="senla.alfa.Solution" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="squares_of_a_sorted_array_977.*" />
+          <option name="PATTERN" value="senla.alfa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PalindromicStringInTHeArray" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.JewelsAndStones" />
         <item itemvalue="Application.FindAllAnagrams" />
         <item itemvalue="Application.SubarraySumEqualsK" />
-        <item itemvalue="Application.SortedArraySquares" />
       </list>
     </recent_temporary>
   </component>

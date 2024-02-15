@@ -1,11 +1,11 @@
-package length_of_the_last_word_58;
+package leetcode;
 
 /**
  * Given a string s consisting of words and spaces, return the length of the last word in the string.
  *
  * A word is a maximal substring consisting of non-space characters only.
  */
-public class LengthOfTHeLastWord {
+public class LengthOfTheLastWord58 {
     public static void main(String[] args) {
         System.out.println(defineLengthOfTHeLastWord("Hello "));
     }

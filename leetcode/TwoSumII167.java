@@ -1,4 +1,4 @@
-package two_sum_II_167;
+package leetcode;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -11,7 +11,7 @@ import java.util.Map;
  * The tests are generated such that there is exactly one solution. You may not use the same element twice.
  * Your solution must use only constant extra space.
  */
-public class TwoSum {
+public class TwoSumII167 {
     public static void main(String[] args) {
         int[] numbers = {2,7,11,15};
         int target = 9;

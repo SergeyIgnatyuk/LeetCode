@@ -1,6 +1,8 @@
-package find_all_anagrams_in_a_string_438;
+package leetcode;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * Given two strings s and p, return an array of all the start indices of p's anagrams in s. You may return the answer in any order.
@@ -8,7 +10,7 @@ import java.util.*;
  * An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
  */
 
-public class FindAllAnagrams {
+public class FindAllAnagrams438 {
     public static void main(String[] args) {
         System.out.println(findAnagrams("abab", "ab"));
     }

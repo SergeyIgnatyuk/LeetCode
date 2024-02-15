@@ -1,4 +1,4 @@
-package fruit_into_baskets_904;
+package leetcode;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,7 +13,7 @@ import java.util.List;
  * Once you reach a tree with fruit that cannot fit in your baskets, you must stop.
  * Given the integer array fruits, return the maximum number of fruits you can pick.
  */
-public class FruitIntoBaskets {
+public class FruitIntoBaskets904 {
     public static void main(String[] args) {
         int[] fruits = {0,1,2,2};
         System.out.println(totalFruit(fruits));

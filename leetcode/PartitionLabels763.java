@@ -1,4 +1,4 @@
-package partition_labels_763;
+package leetcode;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +10,7 @@ import java.util.List;
  * <p>
  * Return a list of integers representing the size of these parts.
  */
-public class PartitionLabels {
+public class PartitionLabels763 {
     public static void main(String[] args) {
         System.out.println(partitionLabels("vhaagbqkaq"));
     }

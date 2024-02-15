@@ -1,4 +1,4 @@
-package subarray_sum_equals_k_560;
+package leetcode;
 
 /**
  * Given an array of integers nums and an integer k, return the total number of subarrays whose sum equals to k.
@@ -6,7 +6,7 @@ package subarray_sum_equals_k_560;
  * A subarray is a contiguous non-empty sequence of elements within an array.
  */
 
-public class SubarraySumEqualsK {
+public class SubarraySumEqualsK560 {
 
     public static void main(String[] args) {
         System.out.println(subarraySum(new int[]{1, -1, 0}, 0));

@@ -1,4 +1,4 @@
-package two_sum_1;
+package leetcode;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -10,7 +10,7 @@ import java.util.Map;
  * You can return the answer in any order.
  */
 
-public class TwoSum {
+public class TwoSum1 {
     public static void main(String[] args) {
         int[] nums = {-3, 4, 3, 90};
         int target = 0;

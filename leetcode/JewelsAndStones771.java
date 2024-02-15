@@ -1,11 +1,11 @@
-package jewels_and_stones_771;
+package leetcode;
 
 /**
  * You're given strings jewels representing the types of stones that are jewels, and stones representing the stones you have. Each character in stones is a type of stone you have. You want to know how many of the stones you have are also jewels.
  * <p>
  * Letters are case sensitive, so "a" is considered a different type of stone from "A".
  */
-public class JewelsAndStones {
+public class JewelsAndStones771 {
     public static void main(String[] args) {
         System.out.println(numJewelsInStones("aA", "aAAbbbb"));
     }

@@ -1,7 +1,8 @@
-package single_number;
+package leetcode;
 
-import java.util.*;
-import java.util.stream.Collectors;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.

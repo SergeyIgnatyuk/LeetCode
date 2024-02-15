@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5232cdd-70f7-4b12-a815-5cbb2ead5ca7" name="Changes" comment="SENLA alfa task">
-      <change afterPath="$PROJECT_DIR$/two_sum_1/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/two_sum_II_167/TwoSum.java" afterDir="false" />
+    <list default="true" id="f5232cdd-70f7-4b12-a815-5cbb2ead5ca7" name="Changes" comment="two sum">
+      <change afterPath="$PROJECT_DIR$/fruit_into_baskets_904/FruitIntoBaskets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +49,20 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.two_sum_II_167.TwoSum">
+  <component name="RunManager" selected="Application.FruitIntoBaskets">
+    <configuration name="FruitIntoBaskets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fruit_into_baskets_904.FruitIntoBaskets" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fruit_into_baskets_904.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LengthOfTHeLastWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="length_of_the_last_word_58.LengthOfTHeLastWord" />
       <module name="LeetCode" />
@@ -70,19 +82,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="find_first_palindromic_string_in_the_array_2108.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="senla.alfa.Solution" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="senla.alfa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FruitIntoBaskets" />
         <item itemvalue="Application.two_sum_II_167.TwoSum" />
         <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.LengthOfTHeLastWord" />
         <item itemvalue="Application.PalindromicStringInTHeArray" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707854711874</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="two sum">
+      <created>1707899871473</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1707899871473</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +253,7 @@
     <MESSAGE value="Find All Anagrams in a String. Used sorting" />
     <MESSAGE value="SENLA alfa task" />
     <MESSAGE value="2108. Find First Palindromic String in the Array" />
-    <option name="LAST_COMMIT_MESSAGE" value="2108. Find First Palindromic String in the Array" />
+    <MESSAGE value="two sum" />
+    <option name="LAST_COMMIT_MESSAGE" value="two sum" />
   </component>
 </project>

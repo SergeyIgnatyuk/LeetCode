@@ -4,30 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5232cdd-70f7-4b12-a815-5cbb2ead5ca7" name="Changes" comment="fruit into baskets">
-      <change afterPath="$PROJECT_DIR$/stream/CountUsersInEachCity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/LongestWordFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/PairSumFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/PalindromeSubstringFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/SumOfEvenSquares.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/UniqueElementsSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/WordFrequencyCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container_with_the_most_water_11/ContainerWithTheMostWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/ContainerWithTheMostWater11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/find_all_anagrams_in_a_string_438/FindAllAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/FindAllAnagrams438.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/find_first_palindromic_string_in_the_array_2108/PalindromicStringInTHeArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/PalindromicStringInTheArray2108.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruit_into_baskets_904/FruitIntoBaskets.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/FruitIntoBaskets904.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jewels_and_stones_771/JewelsAndStones.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/JewelsAndStones771.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/length_of_the_last_word_58/LengthOfTHeLastWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/LengthOfTheLastWord58.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partition_labels_763/PartitionLabels.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/PartitionLabels763.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/permutation_in_string/PermutationInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/PermutationInString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/senla/alfa/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/senla/alfa/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/single_number/SingleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/SingleNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/squares_of_a_sorted_array_977/SortedArraySquares.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/SortedArraySquares977.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subarray_sum_equals_k_560/SubarraySumEqualsK.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/SubarraySumEqualsK560.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/two_sum_1/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/TwoSum1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/two_sum_II_167/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/TwoSumII167.java" afterDir="false" />
+    <list default="true" id="f5232cdd-70f7-4b12-a815-5cbb2ead5ca7" name="Changes" comment="stream api tasks were added">
+      <change beforePath="$PROJECT_DIR$/leetcode/PermutationInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/PermutationInString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/SingleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/SingleNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stream/PalindromeSubstringFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/stream/PalindromeSubstringFinder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +149,7 @@
       <workItem from="1707115604719" duration="1932000" />
       <workItem from="1707855532573" duration="1049000" />
       <workItem from="1707978855377" duration="192000" />
-      <workItem from="1707986935319" duration="5383000" />
+      <workItem from="1707986935319" duration="6059000" />
     </task>
     <task id="LOCAL-00001" summary="Container With Most Water. Done">
       <created>1700944982928</created>
@@ -262,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707978974773</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="stream api tasks were added">
+      <created>1708000767604</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1708000767604</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,6 +277,7 @@
     <MESSAGE value="2108. Find First Palindromic String in the Array" />
     <MESSAGE value="two sum" />
     <MESSAGE value="fruit into baskets" />
-    <option name="LAST_COMMIT_MESSAGE" value="fruit into baskets" />
+    <MESSAGE value="stream api tasks were added" />
+    <option name="LAST_COMMIT_MESSAGE" value="stream api tasks were added" />
   </component>
 </project>

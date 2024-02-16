@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5232cdd-70f7-4b12-a815-5cbb2ead5ca7" name="Changes" comment="PalindromeSubstringFinder started to work on">
-      <change afterPath="$PROJECT_DIR$/leetcode/PalindromeNumber9.java" afterDir="false" />
+    <list default="true" id="f5232cdd-70f7-4b12-a815-5cbb2ead5ca7" name="Changes" comment="PalindromeNumber9">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stream/PalindromeSubstringFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/stream/PalindromeSubstringFinder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,7 @@
       <recent name="leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PalindromeNumber9">
+  <component name="RunManager" selected="Application.PalindromeSubstringFinder">
     <configuration name="CountUsersInEachCity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stream.CountUsersInEachCity" />
       <module name="LeetCode" />
@@ -107,8 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfEvenSquares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.SumOfEvenSquares" />
+    <configuration name="PalindromeSubstringFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.PalindromeSubstringFinder" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -122,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PalindromeSubstringFinder" />
         <item itemvalue="Application.PalindromeNumber9" />
         <item itemvalue="Application.CountUsersInEachCity" />
         <item itemvalue="Application.PairSumFinder" />
         <item itemvalue="Application.LongestWordFinder" />
-        <item itemvalue="Application.SumOfEvenSquares" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +149,7 @@
       <workItem from="1707855532573" duration="1049000" />
       <workItem from="1707978855377" duration="192000" />
       <workItem from="1707986935319" duration="6125000" />
-      <workItem from="1708065049773" duration="2481000" />
+      <workItem from="1708065049773" duration="9030000" />
     </task>
     <task id="LOCAL-00001" summary="Container With Most Water. Done">
       <created>1700944982928</created>
@@ -256,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708007474176</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="PalindromeNumber9">
+      <created>1708069493442</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1708069493442</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,6 +293,7 @@
     <MESSAGE value="fruit into baskets" />
     <MESSAGE value="stream api tasks were added" />
     <MESSAGE value="PalindromeSubstringFinder started to work on" />
-    <option name="LAST_COMMIT_MESSAGE" value="PalindromeSubstringFinder started to work on" />
+    <MESSAGE value="PalindromeNumber9" />
+    <option name="LAST_COMMIT_MESSAGE" value="PalindromeNumber9" />
   </component>
 </project>

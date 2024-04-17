@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5232cdd-70f7-4b12-a815-5cbb2ead5ca7" name="Changes" comment="MapStringToInteger">
-      <change afterPath="$PROJECT_DIR$/leetcode/ContainsDuplicate217.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f5232cdd-70f7-4b12-a815-5cbb2ead5ca7" name="Changes" comment="ContainsDuplicate217">
+      <change afterPath="$PROJECT_DIR$/leetcode/MaximumStrongPairXOR2932.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/ContainsDuplicate217.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/ContainsDuplicate217.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +161,7 @@
       <workItem from="1708344269205" duration="108000" />
       <workItem from="1708346640716" duration="1324000" />
       <workItem from="1708497210736" duration="14690000" />
-      <workItem from="1713335453465" duration="4382000" />
+      <workItem from="1713335453465" duration="4720000" />
     </task>
     <task id="LOCAL-00001" summary="Container With Most Water. Done">
       <created>1700944982928</created>
@@ -289,7 +289,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708347351251</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="ContainsDuplicate217">
+      <option name="closed" value="true" />
+      <created>1713342231404</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1713342231404</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,6 +330,7 @@
     <MESSAGE value="PalindromeNumber9" />
     <MESSAGE value="PalindromeSubstringFinder in progress" />
     <MESSAGE value="MapStringToInteger" />
-    <option name="LAST_COMMIT_MESSAGE" value="MapStringToInteger" />
+    <MESSAGE value="ContainsDuplicate217" />
+    <option name="LAST_COMMIT_MESSAGE" value="ContainsDuplicate217" />
   </component>
 </project>

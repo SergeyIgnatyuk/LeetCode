@@ -36,7 +36,7 @@ public class Consumer {
     }
 
     private static LocalDateTime defineExpirationTime() {
-        return LocalDateTime.now().minusSeconds(5L);
+        return LocalDateTime.now().minusMinutes(5L);
     }
 
     private static class ClearingTask implements Runnable {

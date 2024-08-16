@@ -1,13 +1,16 @@
 package digitalmara;
 
 import java.time.LocalDateTime;
-import java.util.Optional;
-import java.util.concurrent.*;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 public class Consumer {
 
-    private static final ConcurrentHashMap<Integer, LocalDateTime> data = new ConcurrentHashMap<>();
+    private static final ConcurrentHashMap<LocalDateTime, Integer> data = new ConcurrentHashMap<>();
     private static final AtomicBoolean isExecutorWaiting = new AtomicBoolean(true);
     private static final ScheduledExecutorService executorService = Executors.newSingleThreadScheduledExecutor();
 
@@ -17,36 +20,29 @@ public class Consumer {
             executorService.schedule(ClearingTask.getInstance(), 5, TimeUnit.SECONDS);
             isExecutorWaiting.set(false);
         }
-        data.put(number, LocalDateTime.now());
+        data.put(LocalDateTime.now(), number);
         System.out.printf("%d has been added\n", number);
     }
 
     public double mean() {
         LocalDateTime expirationTime = defineExpirationTime();
-        double avarage = data.keySet().stream()
-                .mapToInt(key -> key)
-                .filter(key -> Optional.ofNullable(data.get(key))
-                        .map(value -> value.isAfter(expirationTime))
-                        .orElse(false))
+        double average = data.entrySet().stream()
+                .filter(entry -> entry.getKey().isAfter(expirationTime))
+                .mapToInt(Map.Entry::getValue)
                 .average()
                 .orElse(0.0);
-        System.out.printf("Average is %s\n", avarage);
-        return avarage;
+        System.out.printf("Average is %s\n", average);
+        return average;
     }
 
     private static LocalDateTime defineExpirationTime() {
         return LocalDateTime.now().minusSeconds(5L);
     }
 
-    private static class ClearingTask extends Thread {
+    private static class ClearingTask implements Runnable {
 
         private static class TaskHolder {
-            public static final ClearingTask HOLDER_INSTANCE;
-
-            static {
-                HOLDER_INSTANCE = new ClearingTask();
-                HOLDER_INSTANCE.setDaemon(true);
-            }
+            public static final ClearingTask HOLDER_INSTANCE = new ClearingTask();
         }
 
         public static ClearingTask getInstance() {
@@ -57,13 +53,11 @@ public class Consumer {
         public void run() {
             System.out.println("Executor has been started...");
             LocalDateTime expirationTime = defineExpirationTime();
-            data.keySet().stream()
-                    .filter(key -> Optional.ofNullable(data.get(key))
-                            .map(value -> value.isBefore(expirationTime))
-                            .orElse(true))
-                    .forEach(key -> {
-                        data.remove(key);
-                        System.out.printf("%d has been removed\n", key);
+            data.entrySet().stream()
+                    .filter(entry -> entry.getKey().isBefore(expirationTime))
+                    .forEach(entry -> {
+                        data.remove(entry.getKey());
+                        System.out.printf("%d has been removed\n", entry.getValue());
                     });
             System.out.printf("Data size is %d\n", data.size());
             isExecutorWaiting.set(true);

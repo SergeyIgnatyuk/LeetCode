@@ -25,5 +25,8 @@ public class Solution {
         Thread.sleep(60*5000);
         consumer.accept(10);
         consumer.mean();
+        Thread.sleep(60*5000);
+        Thread.sleep(60*5000);
+        consumer.close();
     }
 }

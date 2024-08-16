@@ -43,7 +43,6 @@ public class Consumer {
 
         private static class TaskHolder {
             public static final ClearingTask HOLDER_INSTANCE = new ClearingTask();
-
         }
 
         public static ClearingTask getInstance() {

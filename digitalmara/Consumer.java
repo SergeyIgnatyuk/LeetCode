@@ -39,15 +39,11 @@ public class Consumer {
         return LocalDateTime.now().minusMinutes(5L);
     }
 
-    private static class ClearingTask extends Thread {
+    private static class ClearingTask implements Runnable {
 
         private static class TaskHolder {
-            public static final ClearingTask HOLDER_INSTANCE;
+            public static final ClearingTask HOLDER_INSTANCE = new ClearingTask();
 
-            static {
-                HOLDER_INSTANCE = new ClearingTask();
-                HOLDER_INSTANCE.setDaemon(true);
-            }
         }
 
         public static ClearingTask getInstance() {

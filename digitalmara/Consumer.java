@@ -6,19 +6,18 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
-import java.util.concurrent.atomic.AtomicBoolean;
 
 public class Consumer {
 
     private static final ConcurrentHashMap<LocalDateTime, Integer> data = new ConcurrentHashMap<>();
-    private static final AtomicBoolean isExecutorWaiting = new AtomicBoolean(true);
+    private static volatile boolean isExecutorWaiting = true;
     private static final ScheduledExecutorService executorService = Executors.newSingleThreadScheduledExecutor();
 
     public void accept(int number) {
-        if (isExecutorWaiting.get()) {
+        if (isExecutorWaiting) {
             System.out.println("Executor is waiting...");
             executorService.schedule(ClearingTask.getInstance(), 5, TimeUnit.MINUTES);
-            isExecutorWaiting.set(false);
+            isExecutorWaiting = false;
         }
         data.put(LocalDateTime.now(), number);
         System.out.printf("%d has been added\n", number);
@@ -60,7 +59,7 @@ public class Consumer {
                         System.out.printf("%d has been removed\n", entry.getValue());
                     });
             System.out.printf("Data size is %d\n", data.size());
-            isExecutorWaiting.set(true);
+            isExecutorWaiting = true;
         }
     }
 }

@@ -12,10 +12,9 @@ public class Consumer {
     private static final ScheduledExecutorService executorService = Executors.newSingleThreadScheduledExecutor();
 
     public void accept(int number) {
-        ClearingTask task = ClearingTask.getInstance();
         if (isExecutorWaiting.get()) {
             System.out.println("Executor is waiting...");
-            executorService.schedule(task, 5, TimeUnit.SECONDS);
+            executorService.schedule(ClearingTask.getInstance(), 5, TimeUnit.SECONDS);
             isExecutorWaiting.set(false);
         }
         data.put(number, LocalDateTime.now());

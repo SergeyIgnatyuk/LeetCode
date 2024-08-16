@@ -3,7 +3,6 @@ package digitalmara;
 public class Solution {
     public static void main(String[] args) throws InterruptedException {
         Consumer consumer = new Consumer();
-        Thread.sleep(60*1000);
         consumer.accept(1);
         Thread.sleep(60*1000);
         consumer.accept(2);

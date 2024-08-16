@@ -17,7 +17,7 @@ public class Consumer {
     public void accept(int number) {
         if (isExecutorWaiting.get()) {
             System.out.println("Executor is waiting...");
-            executorService.schedule(ClearingTask.getInstance(), 5, TimeUnit.SECONDS);
+            executorService.schedule(ClearingTask.getInstance(), 5, TimeUnit.MINUTES);
             isExecutorWaiting.set(false);
         }
         data.put(LocalDateTime.now(), number);

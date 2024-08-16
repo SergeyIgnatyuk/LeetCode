@@ -11,20 +11,19 @@ public class Solution {
         Thread.sleep(1000);
         consumer.accept(4);
         Thread.sleep(1000);
-        consumer.accept(5);
+        consumer.accept(Integer.valueOf(5));
+        consumer.mean();
         Thread.sleep(1000);
-        System.out.println(consumer.mean());
         Thread.sleep(5000);
-        System.out.println(consumer.mean());
-        consumer.accept(5);
+        consumer.accept(Integer.valueOf(5));
         Thread.sleep(1000);
-        System.out.println(consumer.mean());
         Thread.sleep(1000);
         consumer.accept(4);
         Thread.sleep(1000);
         consumer.accept(8);
+        consumer.mean();
         Thread.sleep(5000);
         consumer.accept(10);
-        System.out.println(consumer.mean());
+        consumer.mean();
     }
 }

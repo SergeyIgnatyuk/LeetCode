@@ -18,17 +18,20 @@ public class Consumer {
             isExecutorWaiting.set(false);
         }
         data.put(number, LocalDateTime.now());
+        System.out.printf("%d has been added\n", number);
     }
 
     public double mean() {
         LocalDateTime expirationTime = defineExpirationTime();
-        return data.keySet().stream()
+        double avarage = data.keySet().stream()
                 .mapToInt(key -> key)
                 .filter(key -> Optional.ofNullable(data.get(key))
                         .map(value -> value.isAfter(expirationTime))
                         .orElse(false))
                 .average()
                 .orElse(0.0);
+        System.out.printf("Average is %s\n", avarage);
+        return avarage;
     }
 
     private static LocalDateTime defineExpirationTime() {
@@ -58,7 +61,10 @@ public class Consumer {
                     .filter(key -> Optional.ofNullable(data.get(key))
                             .map(value -> value.isBefore(expirationTime))
                             .orElse(true))
-                    .forEach(data::remove);
+                    .forEach(key -> {
+                        data.remove(key);
+                        System.out.printf("%d has been removed\n", key);
+                    });
             System.out.printf("Data size is %d\n", data.size());
             isExecutorWaiting.set(true);
         }

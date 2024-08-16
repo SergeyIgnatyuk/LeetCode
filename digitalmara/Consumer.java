@@ -1,33 +1,26 @@
 package digitalmara;
 
 import java.time.LocalDateTime;
-import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.Executors;
-import java.util.concurrent.ScheduledExecutorService;
-import java.util.concurrent.TimeUnit;
+import java.util.concurrent.*;
 
-public class Consumer {
-
+public class Consumer implements AutoCloseable {
+    private final CountDownLatch latch = new CountDownLatch(1);
+    private final ScheduledExecutorService executorService = Executors.newSingleThreadScheduledExecutor();
     private static final ConcurrentHashMap<LocalDateTime, Integer> data = new ConcurrentHashMap<>();
-    private static volatile boolean isExecutorWaiting = true;
-    private static final ScheduledExecutorService executorService = Executors.newSingleThreadScheduledExecutor();
 
     public void accept(int number) {
-        if (isExecutorWaiting) {
+        if (latch.getCount() != 0) {
             System.out.println("Executor is waiting...");
-            executorService.schedule(ClearingTask.getInstance(), 5, TimeUnit.MINUTES);
-            isExecutorWaiting = false;
+            executorService.scheduleAtFixedRate(ClearingTask.getInstance(), 5,5, TimeUnit.MINUTES);
+            latch.countDown();
         }
         data.put(LocalDateTime.now(), number);
         System.out.printf("%d has been added\n", number);
     }
 
     public double mean() {
-        LocalDateTime expirationTime = defineExpirationTime();
-        double average = data.entrySet().stream()
-                .filter(entry -> entry.getKey().isAfter(expirationTime))
-                .mapToInt(Map.Entry::getValue)
+        double average = data.values().stream()
+                .mapToInt(i -> i)
                 .average()
                 .orElse(0.0);
         System.out.printf("Average is %s\n", average);
@@ -36,6 +29,11 @@ public class Consumer {
 
     private static LocalDateTime defineExpirationTime() {
         return LocalDateTime.now().minusMinutes(5L);
+    }
+
+    @Override
+    public void close() {
+        executorService.shutdown();
     }
 
     private static class ClearingTask implements Runnable {
@@ -59,7 +57,6 @@ public class Consumer {
                         System.out.printf("%d has been removed\n", entry.getValue());
                     });
             System.out.printf("Data size is %d\n", data.size());
-            isExecutorWaiting = true;
         }
     }
 }

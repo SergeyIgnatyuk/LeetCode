@@ -32,7 +32,7 @@ public class IncrementCounterSynchronizedDemo {
         System.out.println("Time elapsed: " + duration);
     }
 
-    private synchronized static void increment() {
+    private static synchronized void increment() {
         counter++;
     }
 }

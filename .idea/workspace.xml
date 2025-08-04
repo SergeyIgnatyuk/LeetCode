@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5232cdd-70f7-4b12-a815-5cbb2ead5ca7" name="Changes" comment="MaximumStrongPairXOR2932 was created">
-      <change afterPath="$PROJECT_DIR$/digitalmara/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digitalmara/Solution.java" afterDir="false" />
+    <list default="true" id="f5232cdd-70f7-4b12-a815-5cbb2ead5ca7" name="Changes" comment="RomanToInteger13">
+      <change afterPath="$PROJECT_DIR$/multithreading/IncrementCounterSynchronizedDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,35 +36,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ContainsDuplicate217.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/signa/IdeaProjects/LeetCode&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ContainsDuplicate217.executor": "Run",
+    "Application.IncrementCounterSynchronizedDemo.executor": "Run",
+    "Application.PartitionLabels763.executor": "Run",
+    "Application.RomanToInteger13.executor": "Run",
+    "Application.Solution.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "openjdk-19",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/signa/IdeaProjects/LeetCode",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.IncrementCounterSynchronizedDemo">
     <configuration name="ContainsDuplicate217" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.ContainsDuplicate217" />
       <module name="LeetCode" />
@@ -78,38 +81,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapStringToInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.MapStringToInteger" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PalindromeSubstringFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.PalindromeSubstringFinder" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PingPong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.PingPong" />
+    <configuration name="IncrementCounterSynchronizedDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.IncrementCounterSynchronizedDemo" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PartitionLabels763" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.PartitionLabels763" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RomanToInteger13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.RomanToInteger13" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,13 +135,24 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IncrementCounterSynchronizedDemo" />
+        <item itemvalue="Application.PartitionLabels763" />
+        <item itemvalue="Application.RomanToInteger13" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.ContainsDuplicate217" />
-        <item itemvalue="Application.PingPong" />
-        <item itemvalue="Application.MapStringToInteger" />
-        <item itemvalue="Application.PalindromeSubstringFinder" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-azul-17.0.10-4caba194b151-cd1dbda1" />
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+        <option value="jdk-17.0.9-jbr-17.0.9-4caba194b151-51f1b679" />
+        <option value="jdk-19.0.2-corretto-19.0.2-4caba194b151-48ba4555" />
+        <option value="jdk-22-openjdk-22-4caba194b151-f504ca98" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -165,7 +179,28 @@
       <workItem from="1708497210736" duration="14690000" />
       <workItem from="1713335453465" duration="5087000" />
       <workItem from="1723744919291" duration="8751000" />
-      <workItem from="1723788832679" duration="11074000" />
+      <workItem from="1723788832679" duration="15016000" />
+      <workItem from="1723812909968" duration="110000" />
+      <workItem from="1723813433768" duration="733000" />
+      <workItem from="1723815617734" duration="1479000" />
+      <workItem from="1723817830292" duration="1239000" />
+      <workItem from="1723820009816" duration="479000" />
+      <workItem from="1724053669016" duration="55000" />
+      <workItem from="1724223046222" duration="21000" />
+      <workItem from="1724315412963" duration="777000" />
+      <workItem from="1724741736229" duration="131000" />
+      <workItem from="1726917311229" duration="6053000" />
+      <workItem from="1727095299009" duration="8000" />
+      <workItem from="1730187108000" duration="5000" />
+      <workItem from="1730191014814" duration="11000" />
+      <workItem from="1731335247006" duration="1567000" />
+      <workItem from="1732106650735" duration="269000" />
+      <workItem from="1747704008900" duration="616000" />
+      <workItem from="1747993431244" duration="665000" />
+      <workItem from="1748004467787" duration="2624000" />
+      <workItem from="1748078085539" duration="9547000" />
+      <workItem from="1748335057519" duration="593000" />
+      <workItem from="1754310766570" duration="343000" />
     </task>
     <task id="LOCAL-00001" summary="Container With Most Water. Done">
       <created>1700944982928</created>
@@ -309,7 +344,111 @@
       <option name="project" value="LOCAL" />
       <updated>1713342655533</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Consumer Task">
+      <option name="closed" value="true" />
+      <created>1723809546004</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1723809546004</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Consumer Task">
+      <option name="closed" value="true" />
+      <created>1723809789146</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1723809789146</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Consumer Task">
+      <option name="closed" value="true" />
+      <created>1723810867645</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1723810867645</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Consumer Task">
+      <option name="closed" value="true" />
+      <created>1723812084891</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1723812084891</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Consumer Task">
+      <option name="closed" value="true" />
+      <created>1723812412375</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1723812412375</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Consumer Task">
+      <option name="closed" value="true" />
+      <created>1723812549986</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1723812549986</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Consumer Task">
+      <option name="closed" value="true" />
+      <created>1723812991991</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1723812991991</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Consumer Task">
+      <option name="closed" value="true" />
+      <created>1723814200701</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1723814200701</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Consumer Task">
+      <option name="closed" value="true" />
+      <created>1723814289275</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1723814289275</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Consumer Task">
+      <option name="closed" value="true" />
+      <created>1723817482929</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1723817482929</updated>
+    </task>
+    <task id="LOCAL-00031" summary="CountDownLatch">
+      <option name="closed" value="true" />
+      <created>1723818904705</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1723818904705</updated>
+    </task>
+    <task id="LOCAL-00032" summary="close()">
+      <option name="closed" value="true" />
+      <created>1723820408741</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1723820408741</updated>
+    </task>
+    <task id="LOCAL-00033" summary="RomanToInteger13">
+      <option name="closed" value="true" />
+      <created>1726933141834</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1726933141834</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,6 +483,10 @@
     <MESSAGE value="MapStringToInteger" />
     <MESSAGE value="ContainsDuplicate217" />
     <MESSAGE value="MaximumStrongPairXOR2932 was created" />
-    <option name="LAST_COMMIT_MESSAGE" value="MaximumStrongPairXOR2932 was created" />
+    <MESSAGE value="Consumer Task" />
+    <MESSAGE value="CountDownLatch" />
+    <MESSAGE value="close()" />
+    <MESSAGE value="RomanToInteger13" />
+    <option name="LAST_COMMIT_MESSAGE" value="RomanToInteger13" />
   </component>
 </project>

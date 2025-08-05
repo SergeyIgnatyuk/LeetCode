@@ -1,7 +1,7 @@
 package multithreading;
 
 public class PingPong {
-    private static volatile String prevPunch = "pong";
+    private static String prevPunch = "pong";
     private static final Object lock = new Object();
 
     public static void main(String[] args) throws InterruptedException {

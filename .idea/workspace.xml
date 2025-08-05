@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5232cdd-70f7-4b12-a815-5cbb2ead5ca7" name="Changes" comment="IncrementCounterSynchronizedDemo">
+    <list default="true" id="f5232cdd-70f7-4b12-a815-5cbb2ead5ca7" name="Changes" comment="AlfaBotTestExample">
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/stream/AlfaBotTestExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/multithreading/PingPong.java" beforeDir="false" afterPath="$PROJECT_DIR$/multithreading/PingPong.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -203,7 +207,7 @@
       <workItem from="1748078085539" duration="9547000" />
       <workItem from="1748335057519" duration="593000" />
       <workItem from="1754310766570" duration="1246000" />
-      <workItem from="1754377595963" duration="2818000" />
+      <workItem from="1754377595963" duration="3626000" />
     </task>
     <task id="LOCAL-00001" summary="Container With Most Water. Done">
       <created>1700944982928</created>
@@ -467,7 +471,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754311335137</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="AlfaBotTestExample">
+      <option name="closed" value="true" />
+      <created>1754388311618</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1754388311618</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -507,6 +519,7 @@
     <MESSAGE value="close()" />
     <MESSAGE value="RomanToInteger13" />
     <MESSAGE value="IncrementCounterSynchronizedDemo" />
-    <option name="LAST_COMMIT_MESSAGE" value="IncrementCounterSynchronizedDemo" />
+    <MESSAGE value="AlfaBotTestExample" />
+    <option name="LAST_COMMIT_MESSAGE" value="AlfaBotTestExample" />
   </component>
 </project>
